@@ -1,0 +1,18 @@
+# 运行时数据 —— 绝不提交
+codex-home/
+auth.json
+config.toml
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+server-cert.pem
+installation_id
+
+# 大体积二进制 —— 走 Releases，不进仓库
+*.exe
+*.zip
+*.tgz
+
+# 本地环境
+.env
+*.local
